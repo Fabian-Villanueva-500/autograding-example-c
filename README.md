@@ -1,14 +1,13 @@
-# Autograding Example: C
-This example project is written in C, and tested with make and bash scripts.
+Ejercicio 1: Clase Persona
 
-### The assignment
-The tests are currently failing because we're printing the wrong string. Correcting the `printf` will fix the tests.
+Objetivo
+Comprender cómo se define una clase con atributos y un método público.
 
-### Setup command
-N/A
+Archivos:
+- `persona.h`: contiene la declaración de la clase Persona.
+- `main.cpp`: contiene la implementación del método y uso del objeto.
 
-### Run command
-`make test`
-
-### Notes
-- `gcc` can be used to compile and link C applications for use with existing test harnesses or C testing frameworks.
+Instrucciones
+1. Crea una instancia de `Persona`.
+2. Asigna valores a sus atributos.
+3. Llama al método `mostrar()` para imprimir la información.
